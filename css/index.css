@@ -1,0 +1,129 @@
+html {
+    font-size: 62.5%;
+    /* 1rem => 10px*/
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    ;
+    /*font-size = 8/16/24/32/40/48/56/64/72/80... */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: inherit;
+}
+
+.header__logo {
+    /*marrgin-top margin-rigth margin-bottom margin-left*/
+    margin: 4rem 0 4rem 7.2rem;
+}
+
+.informacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18rem;
+    margin: 16rem 7.2rem 16rem 7.2rem;
+}
+
+.encabezado__imagen {
+    width: 100%;
+    object-fit: contain;
+}
+
+.informacion__cuerpo {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.cuerpo__titulo {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.cuerpo__detalle {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+.cuerpo__enlace {
+    /*
+        font-size = 8/16/24/32/40/48/56/64/72/80...
+     */
+    background-color: #333333;
+    text-decoration: none;
+    color: white;
+    padding: 2.4rem 4.0rem 2.4rem 4.0rem;
+    margin-top: 3.2px;
+    align-self: flex-start;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #BDBDBD;
+    margin: 2.4rem;
+}
+
+/* 
+@media all and (max-width:768px) {
+    .informacion {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .informacion__encabezado {
+
+        height: 30rem;
+        width: 100%;
+        margin: 6rem 2rem 0;
+    }
+
+    .informacion__cuerpo {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .cuerpo__titulo {
+        font-family: 'Space Mono', monospace;
+        font-size: 3rem;
+
+    }
+    .cuerpo__enlace {
+        text-align: center;
+        width: 8rem;
+    }
+
+} */
+
+
+
+
+/* @media all and (max-width:320px) {
+    .informacion {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cuerpo__detalle {
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+
+    .cuerpo__enlace {
+        width: 25%;
+    }
+
+
+
+} */
