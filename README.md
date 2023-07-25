@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](challenge.png)
+![Screenshot](screenshot.png)
   You can see the project demo in netlify  [here](https://main--clinquant-truffle-e9efb3.netlify.app)
   I´m a  beginner FrontEnd Developer 
   I had improved Responsive Web Desing, CSS, and HTML
